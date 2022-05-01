@@ -102,7 +102,7 @@ module.exports.translate = async function (sentence, callback) {
     //loop through words
     sentence.forEach(async (w, key) => {
         //get word info
-        var wordInfo = await getWordInformation(w) ? await getWordInformation(w) : w
+        var wordInfo = await module.exports.getWordInformation(w) ? await module.exports.getWordInformation(w) : w
     
         //put word info into result array
         res[key] = wordInfo
