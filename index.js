@@ -108,6 +108,6 @@ module.exports.translate = async function (sentence, callback) {
         res[key] = wordInfo
     
         //print object when all translations fetched
-        if(Object.keys(res).length == length) await callback(res)
+        if(Object.keys(res).length === length) await callback(res)
     })
 }
