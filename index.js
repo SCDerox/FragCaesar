@@ -7,7 +7,7 @@ const translations = {
     'Flexionsart': 'flexion_type',
     'Form': 'form',
     'Deutsch': 'german',
-    'Geschlect': 'gender'
+    'Geschlecht': 'gender'
 };
 
 module.exports.getWordInformation = async function (word) {
