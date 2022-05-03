@@ -91,7 +91,7 @@ module.exports.getWordInformation = async function (word) {
 
 module.exports.translate = async function (sentence, callback) {
     //init result object
-    var res = {}
+    let res = {}
     
     //prepare sentence as an array
     sentence = sentence.split(',').join('').split('.').join('').split(' ')
