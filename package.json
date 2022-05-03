@@ -1,6 +1,6 @@
 {
   "name": "frag-caesar",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This package allows you to get information from frag-caesar.de page easy and quickly.",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "SCDerox",
   "license": "WTFPL",
   "dependencies": {
-    "centra": "^2.4.2",
-    "cheerio": "^1.0.0-rc.5"
+    "centra": "^2.5.0",
+    "cheerio": "^1.0.0-rc.10"
   }
 }
