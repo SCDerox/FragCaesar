@@ -97,7 +97,7 @@ module.exports.translate = async function (sentence, callback) {
     sentence = sentence.split(',').join('').split('.').join('').split(' ')
     
     //get sentence word length
-    var length = sentence.length
+    let length = sentence.length
     
     //loop through words
     sentence.forEach(async (w, key) => {
