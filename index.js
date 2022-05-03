@@ -68,7 +68,7 @@ module.exports.getWordInformation = async function (word) {
     //for each td content string from first tr as c
     content[1].forEach(c => {
         //get keys
-        var key_returnForm = attr_translations[c.split('|').join('')] ? attr_translations[c.split('|').join('')] : c.split('|').join('');
+        let key_returnForm = attr_translations[c.split('|').join('')] ? attr_translations[c.split('|').join('')] : c.split('|').join('');
         var key_content = content?.[3]?.[y] ? 3 : 2;
 
         //get y-th translation
