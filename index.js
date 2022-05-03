@@ -69,7 +69,7 @@ module.exports.getWordInformation = async function (word) {
     content[1].forEach(c => {
         //get keys
         let key_returnForm = attr_translations[c.split('|').join('')] ? attr_translations[c.split('|').join('')] : c.split('|').join('');
-        var key_content = content?.[3]?.[y] ? 3 : 2;
+        let key_content = content?.[3]?.[y] ? 3 : 2;
 
         //get y-th translation
         returnForm[key_returnForm] = content[key_content][y].substring(0, content[key_content][y].length - 1);
